@@ -1,0 +1,38 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+section.home-section {
+    height: 100vh;
+    background-color: #fefefe;
+}
+
+section.category-section {
+    height: 70vh;
+}
+
+section.category-section div.card {
+    width: 28%;
+    transition: transform 0.3s;
+}
+
+section.category-section div.card:hover {
+    transform: scale(1.1);
+}
+
+section.sample-product-section {
+    min-height: 70vh;
+    max-height: max-content;
+}
+
+section.admin-section {
+    height: 100vh;
+}
+
+header {
+    height: 50vh;
+}
+
+.admin-header {
+    height: 10vh;
+}
